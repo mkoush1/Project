@@ -1,0 +1,135 @@
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="82dp"
+    android:layout_margin="24dp"
+    android:background="#333333"
+    android:backgroundTint="#333333"
+    app:cardBackgroundColor="#333333"
+    app:cardCornerRadius="13px"
+    app:strokeColor="#FF5722">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvTitleLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title:"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#FF5722"
+            android:textColorHint="#FFFFFF"
+            android:textColorLink="#FF5722" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTitleLabel"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="-19dp"
+            android:layout_toEndOf="@+id/tvTitleLabel"
+            android:text="Ticket Title"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#FF5722"
+            android:textColorHint="#FFFFFF"
+            android:textColorLink="#FF5722" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/tvStatusLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status:"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#FF5722"
+            android:textColorHint="#FFFFFF"
+            android:textColorLink="#FF5722" />
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvStatusLabel"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="-19dp"
+            android:layout_toEndOf="@+id/tvStatusLabel"
+            android:text="Ticket Status"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#FF5722"
+            android:textColorHint="#FFFFFF"
+            android:textColorLink="#FF5722" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:id="@+id/tvClientLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Client:"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#FF5722"
+            android:textColorHint="#FFFFFF"
+            android:textColorLink="#FF5722" />
+
+        <TextView
+            android:id="@+id/tvClient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvClientLabel"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="-19dp"
+            android:layout_toEndOf="@+id/tvClientLabel"
+            android:text="Client Name"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#FF5722"
+            android:textColorHint="#FFFFFF"
+            android:textColorLink="#FF5722" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:layout_marginTop="60dp">
+
+        <TextView
+            android:id="@+id/tvEmployeeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Employee:"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#FF5722"
+            android:textColorHint="#FFFFFF"
+            android:textColorLink="#FF5722" />
+
+        <TextView
+            android:id="@+id/tvEmployee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEmployeeLabel"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="-19dp"
+            android:layout_toEndOf="@+id/tvEmployeeLabel"
+            android:text="Employee Name"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#FF5722"
+            android:textColorHint="#FFFFFF"
+            android:textColorLink="#FF5722" />
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

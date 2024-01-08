@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">It Ticket</string>
+
+    <string-array name="client_names">
+        <item>Ahmed</item>
+        <item>Fatima</item>
+        <item>Omar</item>
+        <item>Leila</item>
+        <item>Khaled</item>
+        <item>Sara</item>
+        <item>Ziad</item>
+        <item>Rana</item>
+        <item>Aliya</item>
+        <item>Tarek</item>
+    </string-array>
+
+    <string-array name="client_emails">
+        <item>ahmed@example.com</item>
+        <item>fatima@example.com</item>
+        <item>omar@example.com</item>
+        <item>leila@example.com</item>
+        <item>khaled@example.com</item>
+        <item>sara@example.com</item>
+        <item>ziad@example.com</item>
+        <item>rana@example.com</item>
+        <item>aliya@example.com</item>
+        <item>tarek@example.com</item>
+    </string-array>
+
+    <string-array name="client_phones">
+        <item>078-999-6567</item>
+        <item>078-999-6568</item>
+        <item>078-999-6569</item>
+        <item>078-999-6570</item>
+        <item>078-999-6571</item>
+        <item>078-999-6572</item>
+        <item>078-999-6573</item>
+        <item>078-999-6574</item>
+        <item>078-999-6575</item>
+        <item>078-999-6576</item>
+    </string-array>
+
+
+    <string-array name="employee_names">
+        <item>Sarah Ahmad</item>
+        <item>Mohammad Ali</item>
+        <item>Lina Hussein</item>
+        <item>Ahmad Al-Khaldi</item>
+        <item>Nour Abdullah</item>
+        <item>Yasmin Fahmi</item>
+        <item>Omar Al-Jamal</item>
+        <item>Fatima Al-Maayta</item>
+        <item>Ali Al-Omari</item>
+        <item>Hala Abu Baker</item>
+    </string-array>
+
+    <string-array name="employee_emails">
+        <item>sarah.ahmad@example.com</item>
+        <item>mohammad.ali@example.com</item>
+        <item>lina.hussein@example.com</item>
+        <item>ahmad.khaldi@example.com</item>
+        <item>nour.abdullah@example.com</item>
+        <item>yasmin.fahmi@example.com</item>
+        <item>omar.jamal@example.com</item>
+        <item>fatima.maayta@example.com</item>
+        <item>ali.omari@example.com</item>
+        <item>hala.abubaker@example.com</item>
+    </string-array>
+    <string name="all">All</string>
+
+    <string-array name="employee_phones">
+        <item>0799-9896-67</item>
+        <item>0799-9896-68</item>
+        <item>0799-9896-69</item>
+        <item>0799-9896-70</item>
+        <item>0799-9896-71</item>
+        <item>0799-9896-72</item>
+        <item>0799-9896-73</item>
+        <item>0799-9896-74</item>
+        <item>0799-9896-75</item>
+        <item>0799-9896-76</item>
+    </string-array>
+
+    <string-array name="ticket_titles">
+        <item>Issue with Email Configuration</item>
+        <item>Software Installation Problem</item>
+        <item>Network Connectivity Issue</item>
+        <item>Printer Not Working</item>
+        <item>Security Concerns</item>
+        <item>Application Crashing</item>
+        <item>Password Reset Request</item>
+        <item>Data Recovery Request</item>
+        <item>Hardware Malfunction</item>
+        <item>Other Technical Issue</item>
+    </string-array>
+
+
+
+    <string-array name="ticket_comments">
+        <item>Waiting for client response</item>
+        <item>Investigating the issue</item>
+        <item>Resolved and closed</item>
+        <item>Replaced faulty hardware</item>
+        <item>Security audit initiated</item>
+        <item>Application reinstallation required</item>
+        <item>Password reset successful</item>
+        <item>Data recovery in progress</item>
+        <item>Hardware replaced, issue resolved</item>
+        <item>Further investigation needed</item>
+    </string-array>
+</resources>

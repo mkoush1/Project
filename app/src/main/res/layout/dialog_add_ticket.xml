@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#333333"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#FFFFFF"
+        android:hint="Title"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FF5722"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FF5722" />
+
+    <EditText
+        android:id="@+id/descriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:backgroundTint="#FFFFFF"
+        android:hint="Description"
+        android:inputType="textMultiLine"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FF5722"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FF5722" />
+
+    <Button
+        android:id="@+id/submitTicketButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF5722"
+        android:text="Submit"
+        android:textColorHighlight="#FF5722"
+        android:textColorLink="#FF5722" />
+</LinearLayout>

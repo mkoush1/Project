@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#333333"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="#FFFFFF"
+        android:hint="Name"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FF5722"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FF5722" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="#FFFFFF"
+        android:hint="Email"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FF5722"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FF5722" />
+
+    <EditText
+        android:id="@+id/etMobile"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="#FFFFFF"
+        android:hint="Mobile"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF" />
+
+    <!-- Add the following lines for the etIdNumber field -->
+    <EditText
+        android:id="@+id/etIdNumber"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="#FFFFFF"
+        android:hint="ID Number"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF" />
+
+</LinearLayout>

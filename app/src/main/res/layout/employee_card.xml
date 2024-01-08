@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="24dp"
+    android:background="#333333"
+    android:backgroundTint="#333333"
+    app:cardBackgroundColor="#333333"
+    app:cardCornerRadius="13px"
+    app:strokeColor="#FF5722">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvEmployeeIdNumberLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID Number:"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#FF5722"
+            android:textColorHint="#FFFFFF"
+            android:textColorLink="#FF5722" />
+
+        <TextView
+            android:id="@+id/tvEmployeeIdNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEmployeeIdNumberLabel"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="-19dp"
+            android:layout_toEndOf="@+id/tvEmployeeIdNumberLabel"
+            android:text="2021"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#FF5722"
+            android:textColorHint="#FFFFFF"
+            android:textColorLink="#FF5722" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/tvEmployeeEmailLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#FF5722"
+            android:textColorHint="#FFFFFF"
+            android:textColorLink="#FF5722" />
+
+        <TextView
+            android:id="@+id/tvEmployeeEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEmployeeEmailLabel"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="-19dp"
+            android:layout_toEndOf="@+id/tvEmployeeEmailLabel"
+            android:text="abukoush403@gmail.com"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#FF5722"
+            android:textColorHint="#FFFFFF"
+            android:textColorLink="#FF5722" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:id="@+id/tvEmployeeNameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#FF5722"
+            android:textColorHint="#FFFFFF"
+            android:textColorLink="#FF5722" />
+
+        <TextView
+            android:id="@+id/tvEmployeeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEmployeeNameLabel"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="-19dp"
+            android:layout_toEndOf="@+id/tvEmployeeNameLabel"
+            android:text="Mohammad"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#FF5722"
+            android:textColorHint="#FFFFFF"
+            android:textColorLink="#FF5722" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp">
+
+        <TextView
+            android:id="@+id/tvEmployeeMobileLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile:"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#FF5722"
+            android:textColorHint="#FFFFFF"
+            android:textColorLink="#FF5722" />
+
+        <TextView
+            android:id="@+id/tvEmployeeMobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEmployeeMobileLabel"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="-19dp"
+            android:text="0799989667"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#FF5722"
+            android:textColorHint="#FFFFFF"
+            android:textColorLink="#FF5722" />
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,83 @@
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardBackgroundColor="#333333"
+    app:cardCornerRadius="13px"
+    app:strokeColor="#FF5722">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvClientNameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/tvClientName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvClientNameLabel"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="-19dp"
+            android:layout_toEndOf="@+id/tvClientNameLabel"
+            android:text="Client Name"
+            android:textColor="#FFFFFF" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/tvClientIdLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Id:"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/tvClientId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvClientIdLabel"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="-19dp"
+            android:layout_toEndOf="@+id/tvClientIdLabel"
+            android:text="Client Id"
+            android:textColor="#FFFFFF" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:id="@+id/tvClientEmailLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/tvClientEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/tvClientEmailLabel"
+            android:text="client@example.com"
+            android:textColor="#FFFFFF" />
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

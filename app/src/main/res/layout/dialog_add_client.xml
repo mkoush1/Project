@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#333333"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etClientName"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:backgroundTint="#FFFFFF"
+        android:hint="Client Name"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FF5722"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FF5722" />
+
+    <EditText
+        android:id="@+id/etClientEmail"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:backgroundTint="#FFFFFF"
+        android:hint="Client Email"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FF5722"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FF5722" />
+
+    <EditText
+        android:id="@+id/etClientPhone"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:backgroundTint="#FFFFFF"
+        android:hint="Client Phone"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FF5722"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FF5722" />
+
+</LinearLayout>

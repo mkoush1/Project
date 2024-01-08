@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333333">
+
+    <TextView
+        android:id="@+id/ticketTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:text="Ticket Title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FF5722"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FF5722"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/ticketDescriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:layout_below="@id/ticketTitleTextView"
+        android:layout_marginTop="8dp"
+        android:padding="16dp"
+        android:text="Ticket Description :"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FF5722"
+        android:textColorLink="#FF5722"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/ticketStatusTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ticketDescriptionTextView"
+        android:layout_marginTop="8dp"
+        android:padding="16dp"
+        android:text="Status :"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FF5722"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FF5722"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/ticketCommentsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/ticketStatusTextView"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="-2dp"
+        android:padding="16dp"
+        android:text="Comments"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FF5722"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FF5722"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/statusSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_below="@+id/ticketStatusTextView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-58dp"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="#FF5722"
+        android:padding="16dp"
+        android:text="Change Status"
+        android:tooltipText="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/commentEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statusSpinner"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="249dp"
+        android:layout_marginEnd="4dp"
+        android:backgroundTint="#FFFFFF"
+        android:hint="Add a comment"
+        android:padding="16dp"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FF5722"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FF5722" />
+
+    <Button
+        android:id="@+id/submitCommentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/commentEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#FF5722"
+        android:text="Submit Comment"
+        android:textSize="16sp" />
+
+</RelativeLayout>
